@@ -1,14 +1,14 @@
 
 header p {
-    color: red;
+  color: red;
 }
 
 .para {
-    color: purple;
+  color: purple;
 }
 
 p.para {
-    color: orange;
+    color: white;
 }
 
 header {
@@ -19,7 +19,56 @@ header {
 
 header {
     height: 100px;
-    background-color: pink;
+    background-color: blue;
     font-size: 20px;
     color: gray;
 }
+
+.ball{ 
+  height: 250px; width: 250px;
+  margin: 0 auto;
+  background-color: purple;
+  animation-name: bounce;
+  animation-duration: 1.0s;
+  animation-timing-function: ease-out;
+  animation-direction:alternate;
+  animation-iteration-count:infinite; 
+}
+
+.top-line{ 
+  width: :320px; height: 200px; heigth: 200px;
+  margin: 40px 0 0 -39px;
+  border: solid 4px #000;
+  border-color: #000 transparent; 
+transparent transparent;
+  border-radius: 50%/150px 150px 0 0;
+}
+
+.bottom-line{ 
+   width: 290px; height: 200px;
+   margin: -245px 0 0 -24px;
+   border: solid; 4px #000;
+   border-color: transparent transparent; 
+ #000 transparent;
+   border-radius: 50%/100px 100px 100px
+ 100px;
+}
+
+.middle-line { 
+  width: 260px; height: 200px;
+  margin: -90px; 0 0 -11px;
+  border: solid 6px #000;
+  border-color: #000 transparent; 
+transparent transparent;
+  border-radius: 50%/20px 20 px 0 0;
+}
+
+.text{ 
+  position: absolute;
+  font-family: serif,sans-serif,fantasy;
+  font-size: 30px;
+  margin: -290px 0 0 70px;
+}
+
+img { 
+  position: absolute; }
