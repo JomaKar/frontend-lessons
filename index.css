@@ -1,31 +1,40 @@
-
-header p {
-    color: red;
+body {
+  background-image: url("images/smile.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+  background-attachment: fixed;
 }
 
-.para {
-    color: purple;
+p{
+    color: skyblue;
 }
 
-p.para {
-    color: orange;
+h1{
+    background-color: steelblue;
 }
 
-header {
-    width: 100%;
-    height: 200px;
-    background-color: red;
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
 }
 
-header {
-    height: 100px;
-    background-color: pink;
-    font-size: 20px;
-    color: gray;
+article {
+  margin-bottom: 32px;
 }
 
-.school {
-    color: white;
+.target {
+  display: block;
+  max-width: 50%;
+  height: auto;
+  margin: 0 auto;
 }
+/** https://s3-us-west-2.amazonaws.com/s.cdpn.io/234228/alpha-cat.png **/
 
-
+.alpha-target {
+  mask-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/234228/alpha-cat.png");
+  mask-mode: alpha;
+  mask-repeat: no-repeat;
+  mask-size: 80%;
+}
