@@ -4,22 +4,22 @@ header p {
 }
 
 .para {
-    color: purple;
+  color:;
 }
 
 p.para {
-    color: orange;
+    color: black;
 }
 
 header {
     width: 100%;
     height: 200px;
-    background-color: red;
+    background-color:;
 }
 
 header {
     height: 100px;
-    background-color: pink;
+    background-color:;
     font-size: 20px;
     color: gray;
 }
